@@ -33,6 +33,7 @@ a{
 }
 a:hover{
 	background-color:purple;
+	color:white;
 }
 a:active{
 	background-color: blue;
