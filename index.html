@@ -1859,7 +1859,46 @@ inputs and one output. Let us here employ cross entropy loss. The terminologies 
 <p></p>
 <p>Thus the calculated gradient can be used in Gradient Descent for updation of weight w<sub>11</sub>. The other such gradients are also calculated using the similar methods. But today there are many libraries available to perform
 the gradient calculation using a technique called automatic differentiation, which employs chain rule repeatedly for calculation of gradients thus avoid writing hardcoded formulas.</p>
-
+<h2 style="border-bottom:solid 1px;" >Funny Facts</h2>
+<p>We shall see the interesting facts about personalities and countries all around the world.</p>
+<div id="facts">
+<button id="worldcss" onclick="worldfunction()">World</button>
+<button id="countrycss" onclick="countryfunction()">Person</button>
+<br>
+<br>
+<div id="world">
+<p>1. The UAE is longest name of a country to have alternate vowels and consonants.(UNITED ARAB EMIRATES) </p>
+<p>2. The crows are rare in New Zealand because people there are licensed to kill crows as they fear that crows can act as carrier for contagious disease.</p>
+<p>3. France's high sanitation quality ensured mosquitos to be one of the  rarest flies in the mainland. </p>
+<p>4. The New England, New France and the New Netherlands are the colony established in present USA by the English, French and the Dutch people.</p>
+<p>5. One Hundred Trillion Dollar $ currency note by the Reserve Bank of Zimbabwe is most valuable note printed by any country though a pencil in Zimbabwe would cost around a billion dollar $ during Hyperinflation</p>
+</div>
+<div id ="person" style="display:none;">
+<p>1.Micheal Faraday joined as an assistant for helping scientist Davy in taking notes as his eyesight affected while conducting experiments with Nitrous oxide.</p>
+<p>2.Great Scientist Nikola Tesla when experimenting with motors accidently synchronized the frequency of the motor with earth's natural frequency causing Artificial Earthquakes.</p>
+<p>3.Bruce Lee is considered to be the fastest man in the world because of his ability to land 6 punches in a second.</p>
+<p>4.Ghinna in his last days confessed to Nehru that he made a huge blunder by seperating Pakistan from India. </p>
+<p>5.Hitler married his life-long girlfriend at the party which he gave for his guards just before the night he commited suicide.</p>
+</div>
+</div>
+<script>
+function worldfunction(){
+  document.getElementById("person").style.display="none";
+  document.getElementById("world").style.display="block";
+  document.getElementById("facts").style.backgroundColor="orange";
+   document.getElementById("worldcss").style.backgroundColor="orange";
+   document.getElementById("worldcss").style.color="black";
+}
+function countryfunction(){
+ document.getElementById("world").style.display="none";
+ document.getElementById("person").style.display="block";
+ document.getElementById("person").style.color="white";
+ document.getElementById("facts").style.backgroundColor="#191975";
+ document.getElementById("countrycss").style.backgroundColor="#191975";
+}
+</script>
+</body>
+</html>
 </body>
 </html>
 
